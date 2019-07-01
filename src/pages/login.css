@@ -1,0 +1,63 @@
+
+.logo{
+  margin-top: -24vmin;
+  margin-bottom: 4vmin;
+  overflow: hidden;
+  
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.am-list-body{
+  border-radius:5px;
+}
+.am-list-body::after,.am-list-body::before{
+  height:0 !important;
+}
+.am-list-item{
+  border-radius:3vmin;
+}
+.am-list-item .am-input-label.am-input-label-5{
+  width:12vmin;
+}
+.am-list-item .am-input-control{
+  padding-right:8vmin;
+}
+.am-list-item .am-input-clear{
+  position:absolute;
+  right:4vmin;
+}
+.am-list-item.am-input-error .am-input-error-extra{
+  position:absolute;
+  right:4vmin;
+}
+.am-wingblank.am-wingblank-lg{
+  margin-left:0;
+  margin-right:0;
+  margin-top: 4vmin;
+}
+.cont-foot p{
+  text-align:right;
+}
+.error-span{
+  position: absolute;
+  color: #f50;
+  top: -8vmin;
+  font-size:4vmin;
+  background: #fff;
+  /* padding: 5px; */
+  width: 100%;
+  box-sizing: border-box;
+  padding: 5px;
+  border-radius: 5px;
+}
